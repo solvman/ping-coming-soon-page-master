@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --color-primary-400: hsl(223, 87%, 63%);
+  --color-secondary-200: hsl(223, 100%, 88%);
+  --color-secondary-300: hsl(354, 100%, 66%);
+  --color-neutral-400: hsl(0, 0%, 59%);
+  --color-neutral-800: hsl(209, 33%, 12%);
+
+  --font-family: "Libre Franklin", sans-serif;
+  --font-weight-light: 300;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --font-size-body: 20px;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
