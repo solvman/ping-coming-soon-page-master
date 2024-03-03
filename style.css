@@ -113,6 +113,10 @@ strong {
   color: var(--color-secondary-200);
 }
 
+.subscribe-form input:focus {
+  outline: none;
+}
+
 .subscribe-form button {
   width: 100%;
   font-weight: var(--font-weight-semibold);
