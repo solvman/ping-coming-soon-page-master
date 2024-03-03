@@ -36,7 +36,12 @@ img {
 
 input,
 button {
+  display: block;
   font-family: inherit;
   font-size: inherit;
   color: inherit;
+}
+
+ul {
+  list-style: none;
 }

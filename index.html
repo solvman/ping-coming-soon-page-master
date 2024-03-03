@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
+    <script
+      src="https://kit.fontawesome.com/798ce98841.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
@@ -15,8 +19,48 @@
     <title>Frontend Mentor | Ping coming soon page</title>
   </head>
   <body>
-    We are launching soon! Subscribe and get notified Notify Me &copy; Copyright
-    Ping. All rights reserved.
+    <header>
+      <img src="./images/logo.svg" alt="Ping logo" class="logo" />
+    </header>
+    <main>
+      <h1 class="title">We are launching soon!</h1>
+      <p class="description">Subscribe and get notified</p>
+      <form action="#" id="subform" method="post">
+        <div class="subform__field">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email address..."
+            class="subform__input"
+          />
+          <small>Email cannot be empty</small>
+        </div>
+        <button type="submit" class="subform__button">Notify Me</button>
+        <img
+          src="./images/illustration-dashboard.png"
+          alt="Dashboard illustration"
+          class="hero-img"
+        />
+      </form>
+    </main>
+    <footer class="footer">
+      <ul class="footer__socials">
+        <li>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i> </a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+      </ul>
+      <p class="footer__copyright">
+        &copy; Copyright Ping. All rights reserved.
+      </p>
+    </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
