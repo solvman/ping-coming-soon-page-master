@@ -37,11 +37,85 @@ img {
 input,
 button {
   display: block;
-  font-family: inherit;
-  font-size: inherit;
-  color: inherit;
+  font: inherit;
 }
 
 ul {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Typography */
+
+body {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-light);
+  color: var(--color-neutral-800);
+}
+
+strong {
+  font-weight: var(--font-weight-bold);
+  color: var(--color-neutral-800);
+}
+.logo {
+  width: var(--logo-fluid-56-90);
+}
+.title {
+  font-weight: var(--font-weight-light);
+  font-size: var(--fs-xl-fluid-22-48);
+  color: var(--color-neutral-400);
+  line-height: 1.2;
+}
+
+.description {
+  font-size: var(--fs-lg-fluid-12-20);
+  line-height: 1.5;
+}
+
+.subscribe-form small {
+  font-style: italic;
+  font-size: var(--fs-sm-fluid-10-12);
+  color: var(--color-secondary-300);
+}
+
+.subscribe-form {
+  font-size: var(--fs-md-fluid-12-16);
+}
+
+.subscribe-form input {
+  width: 100%;
+}
+
+.hero-img {
+  width: var(--hero-fluid-320-640);
+}
+
+.footer__copyright {
+  font-size: var(--fs-sm-fluid-10-12);
+  color: var(--color-neutral-400);
+}
+
+/* Laytout */
+header,
+main,
+footer {
+  display: grid;
+  justify-items: center;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 75%;
+  border: 1px solid var(--color-neutral-400);
+}
+
+.footer__socials {
+  display: flex;
+  gap: 1rem;
 }
